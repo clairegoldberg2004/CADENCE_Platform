@@ -8,7 +8,7 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: 3.11.7
     healthCheckPath: /api/defaults
 
   # React Frontend (optional - can also deploy to Vercel)

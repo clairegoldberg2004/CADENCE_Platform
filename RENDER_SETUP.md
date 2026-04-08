@@ -51,9 +51,13 @@
 - Make sure `capacity_delta_subset(in).csv` is in your repository root
 - Render will have access to it at runtime
 
-### Environment Variables
-- No environment variables needed for basic deployment
-- The CSV file path is hardcoded to `capacity_delta_subset(in).csv` in the root
+### Python version (important)
+- New Render web services default to **Python 3.14**. Older pinned packages (e.g. pandas 2.1.x) may **not have wheels** for 3.14 and will try to compile from source, which often fails.
+- This repo pins Python with a **`.python-version`** file at the repo root (`3.11.7`). Render reads this automatically ([docs](https://render.com/docs/python-version)).
+- Alternatively, in the Render dashboard → your service → **Environment**, set **`PYTHON_VERSION`** to **`3.11.7`** (fully qualified). That overrides the default.
+
+### Other environment variables
+- The CSV path is hardcoded to `capacity_delta_subset(in).csv` in the repo root; no extra env vars required for that.
 
 ### Free Tier Limitations
 - Services spin down after 15 minutes of inactivity
