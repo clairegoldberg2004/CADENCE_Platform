@@ -1,0 +1,36 @@
+.about-me-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 8px 0 48px;
+}
+
+.about-me-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 20px 0;
+  letter-spacing: -0.02em;
+}
+
+.about-me-text-block {
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  padding: 20px 22px;
+}
+
+.about-me-text {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.about-me-text code {
+  font-size: 0.88em;
+  background: var(--color-surface);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+}

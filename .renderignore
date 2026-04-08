@@ -1,0 +1,16 @@
+# Files to ignore when deploying to Render
+inputs/
+*.ipynb
+test_*.py
+.git/
+.gitignore
+README.md
+QUICKSTART.md
+RENDER_SETUP.md
+frontend/node_modules/
+frontend/build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python

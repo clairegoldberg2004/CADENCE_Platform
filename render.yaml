@@ -1,0 +1,24 @@
+services:
+  # Flask Backend API
+  - type: web
+    name: interdependency-model-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    healthCheckPath: /api/defaults
+
+  # React Frontend (optional - can also deploy to Vercel)
+  - type: web
+    name: interdependency-model-frontend
+    runtime: node
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://interdependency-model-api.onrender.com
+        # Update this after backend deploys - Render will give you the URL

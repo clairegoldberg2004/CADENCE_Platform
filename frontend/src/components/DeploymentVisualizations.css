@@ -1,0 +1,28 @@
+.deployment-visualizations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.plot-container {
+  width: 100%;
+  min-height: 400px;
+  flex: 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+}
+
+.viz-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .viz-two-col {
+    grid-template-columns: 1fr;
+  }
+}

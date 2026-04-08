@@ -1,0 +1,227 @@
+run name,year,tech,zone,type,unit,tech||outputs_group_aggregate,tech||outputs_group_detailed,tech||type,value,sequencing_sector,asset_type
+net zero 2050,2040,bauxite refining - electric,qld-gg,new,kilotonne/hour,alumina production,alumina production,conversion,0.12700349,industry,plant
+net zero 2050,2045,bauxite refining - electric,qld-gg,new,kilotonne/hour,alumina production,alumina production,conversion,0.13347478,industry,plant
+net zero 2050,2050,bauxite refining - electric,qld-gg,new,kilotonne/hour,alumina production,alumina production,conversion,0.07084825,industry,plant
+net zero 2050,2060,bauxite refining - electric,qld-gg,new,kilotonne/hour,alumina production,alumina production,conversion,0.15494899,industry,plant
+net zero 2050,2045,aluminium smelting,qld-gg,new,kilotonne/hour,aluminum production,aluminum production,conversion,0.03942839,industry,plant
+net zero 2050,2060,aluminium smelting,qld-gg,new,kilotonne/hour,aluminum production,aluminum production,conversion,0.01087915,industry,plant
+net zero 2050,2035,autothermal reforming w/cc,qld-north,new,gigawatt,autothermal reforming w/cc,autothermal reforming w/cc,conversion,0.0280248,fuels,plant
+net zero 2050,2060,autothermal reforming w/cc,qld-north,new,gigawatt,autothermal reforming w/cc,autothermal reforming w/cc,conversion,0.03070729,fuels,plant
+net zero 2050,2035,autothermal reforming w/cc,qld-outback,new,gigawatt,autothermal reforming w/cc,autothermal reforming w/cc,conversion,0.04758705,fuels,plant
+net zero 2050,2035,autothermal reforming w/cc,qld-south,new,gigawatt,autothermal reforming w/cc,autothermal reforming w/cc,conversion,0.57159324,fuels,plant
+net zero 2050,2045,bio-gasification fischer-tropsch w/cc,qld-central,new,gigawatt,biofuels,biofuels w/cc,conversion,0.18737181,fuels,plant
+net zero 2050,2050,bio-gasification fischer-tropsch w/cc,qld-central,new,gigawatt,biofuels,biofuels w/cc,conversion,0.18739756,fuels,plant
+net zero 2050,2045,bio-gasification fischer-tropsch w/cc,qld-north,new,gigawatt,biofuels,biofuels w/cc,conversion,0.83407834,fuels,plant
+net zero 2050,2050,bio-gasification fischer-tropsch w/cc,qld-north,new,gigawatt,biofuels,biofuels w/cc,conversion,1.67767032,fuels,plant
+net zero 2050,2040,bio-gasification fischer-tropsch w/cc,qld-south,new,gigawatt,biofuels,biofuels w/cc,conversion,0.09056662,fuels,plant
+net zero 2050,2045,bio-gasification fischer-tropsch w/cc,qld-south,new,gigawatt,biofuels,biofuels w/cc,conversion,0.30040025,fuels,plant
+net zero 2050,2050,bio-gasification fischer-tropsch w/cc,qld-south,new,gigawatt,biofuels,biofuels w/cc,conversion,0.30044615,fuels,plant
+net zero 2050,2045,clinker production - direct separation ccs retrofit,qld-gg,retrofit,kilotonne/hour,cement and lime production,clinker production,conversion,0.01703702,industry,plant
+net zero 2050,2045,clinker production - direct separation ccs retrofit,qld-south,retrofit,kilotonne/hour,cement and lime production,clinker production,conversion,0.05458808,industry,plant
+net zero 2050,2030,kiln_burner_coal,qld-gg,new,gigawatt,cement and lime production,kiln burner,conversion,0.03624299,industry,plant
+net zero 2050,2030,kiln_burner_coal,qld-south,new,gigawatt,cement and lime production,kiln burner,conversion,0.05348088,industry,plant
+net zero 2050,2035,kiln_burner_pipeline gas,qld-south,new,gigawatt,cement and lime production,kiln burner,conversion,0.10584586,industry,plant
+net zero 2050,2035,li-ion,qld-central,new,gigawatt,electricity storage,battery storage,electric storage,0.16655934,electricity,plant
+net zero 2050,2040,li-ion,qld-central,new,gigawatt,electricity storage,battery storage,electric storage,0.03754532,electricity,plant
+net zero 2050,2050,li-ion,qld-central,new,gigawatt,electricity storage,battery storage,electric storage,0.17341163,electricity,plant
+net zero 2050,2055,li-ion,qld-central,new,gigawatt,electricity storage,battery storage,electric storage,0.04289004,electricity,plant
+net zero 2050,2060,li-ion,qld-central,new,gigawatt,electricity storage,battery storage,electric storage,0.23905269,electricity,plant
+net zero 2050,2030,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,0.55561202,electricity,plant
+net zero 2050,2035,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,1.65440291,electricity,plant
+net zero 2050,2040,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,1.20977665,electricity,plant
+net zero 2050,2045,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,0.30694897,electricity,plant
+net zero 2050,2050,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,1.86218437,electricity,plant
+net zero 2050,2055,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,2.42683943,electricity,plant
+net zero 2050,2060,li-ion,qld-gg,new,gigawatt,electricity storage,battery storage,electric storage,3.17982036,electricity,plant
+net zero 2050,2030,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,0.28823961,electricity,plant
+net zero 2050,2035,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,0.26483842,electricity,plant
+net zero 2050,2040,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,1.50542377,electricity,plant
+net zero 2050,2045,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,0.88074093,electricity,plant
+net zero 2050,2050,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,3.26418755,electricity,plant
+net zero 2050,2055,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,0.23105809,electricity,plant
+net zero 2050,2060,li-ion,qld-north,new,gigawatt,electricity storage,battery storage,electric storage,2.35161953,electricity,plant
+net zero 2050,2035,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,0.23673279,electricity,plant
+net zero 2050,2040,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,1.107465,electricity,plant
+net zero 2050,2045,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,0.80762125,electricity,plant
+net zero 2050,2050,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,1.91973093,electricity,plant
+net zero 2050,2055,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,0.75970327,electricity,plant
+net zero 2050,2060,li-ion,qld-outback,new,gigawatt,electricity storage,battery storage,electric storage,1.74271131,electricity,plant
+net zero 2050,2030,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,3.93584097,electricity,plant
+net zero 2050,2035,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,4.34386515,electricity,plant
+net zero 2050,2040,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,4.3392021,electricity,plant
+net zero 2050,2045,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,1.55773058,electricity,plant
+net zero 2050,2050,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,5.15338052,electricity,plant
+net zero 2050,2055,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,4.95810352,electricity,plant
+net zero 2050,2060,li-ion,qld-south,new,gigawatt,electricity storage,battery storage,electric storage,3.58501741,electricity,plant
+net zero 2050,2045,electrolysis h2,qld-central,new,gigawatt,electrolysis,electrolysis,conversion,0.0157314,fuels,plant
+net zero 2050,2040,electrolysis h2,qld-gg,new,gigawatt,electrolysis,electrolysis,conversion,0.0210996,fuels,plant
+net zero 2050,2045,electrolysis h2,qld-gg,new,gigawatt,electrolysis,electrolysis,conversion,0.01368158,fuels,plant
+net zero 2050,2050,electrolysis h2,qld-gg,new,gigawatt,electrolysis,electrolysis,conversion,0.16777969,fuels,plant
+net zero 2050,2040,electrolysis h2,qld-north,new,gigawatt,electrolysis,electrolysis,conversion,0.22075716,fuels,plant
+net zero 2050,2045,electrolysis h2,qld-north,new,gigawatt,electrolysis,electrolysis,conversion,0.17883784,fuels,plant
+net zero 2050,2050,electrolysis h2,qld-north,new,gigawatt,electrolysis,electrolysis,conversion,0.50014554,fuels,plant
+net zero 2050,2040,electrolysis h2,qld-outback,new,gigawatt,electrolysis,electrolysis,conversion,0.46179012,fuels,plant
+net zero 2050,2045,electrolysis h2,qld-outback,new,gigawatt,electrolysis,electrolysis,conversion,0.08754598,fuels,plant
+net zero 2050,2050,electrolysis h2,qld-outback,new,gigawatt,electrolysis,electrolysis,conversion,0.34864952,fuels,plant
+net zero 2050,2040,electrolysis h2,qld-south,new,gigawatt,electrolysis,electrolysis,conversion,0.45100561,fuels,plant
+net zero 2050,2045,electrolysis h2,qld-south,new,gigawatt,electrolysis,electrolysis,conversion,0.89913225,fuels,plant
+net zero 2050,2050,electrolysis h2,qld-south,new,gigawatt,electrolysis,electrolysis,conversion,0.59357359,fuels,plant
+net zero 2050,2030,coal gas extraction,qld-outback,new,gigawatt,gas extraction,coal gas extraction,conversion,8.92030263,industry,plant
+net zero 2050,2050,coal gas extraction,qld-outback,new,gigawatt,gas extraction,coal gas extraction,conversion,4.3423254,industry,plant
+net zero 2050,2055,coal gas extraction,qld-outback,new,gigawatt,gas extraction,coal gas extraction,conversion,0.94124175,industry,plant
+net zero 2050,2060,coal gas extraction,qld-outback,new,gigawatt,gas extraction,coal gas extraction,conversion,0.9917317,industry,plant
+net zero 2050,2030,gas combined cycle,qld-north,new,gigawatt,gas power,gas combined cycle,thermal,0.07629692,electricity,plant
+net zero 2050,2035,gas combustion turbine,qld-central,new,gigawatt,gas power,gas combustion turbine,thermal,0.05206392,electricity,plant
+net zero 2050,2040,gas combustion turbine,qld-central,new,gigawatt,gas power,gas combustion turbine,thermal,0.0534603,electricity,plant
+net zero 2050,2045,gas combustion turbine,qld-central,new,gigawatt,gas power,gas combustion turbine,thermal,0.02430025,electricity,plant
+net zero 2050,2050,gas combustion turbine,qld-central,new,gigawatt,gas power,gas combustion turbine,thermal,0.02429509,electricity,plant
+net zero 2050,2060,gas combustion turbine,qld-central,new,gigawatt,gas power,gas combustion turbine,thermal,0.02184707,electricity,plant
+net zero 2050,2035,gas combustion turbine,qld-north,new,gigawatt,gas power,gas combustion turbine,thermal,0.26401969,electricity,plant
+net zero 2050,2040,gas combustion turbine,qld-north,new,gigawatt,gas power,gas combustion turbine,thermal,0.26409467,electricity,plant
+net zero 2050,2045,gas combustion turbine,qld-north,new,gigawatt,gas power,gas combustion turbine,thermal,0.35233065,electricity,plant
+net zero 2050,2050,gas combustion turbine,qld-north,new,gigawatt,gas power,gas combustion turbine,thermal,0.3523625,electricity,plant
+net zero 2050,2030,gas combustion turbine,qld-outback,new,gigawatt,gas power,gas combustion turbine,thermal,0.3860313,electricity,plant
+net zero 2050,2035,gas combustion turbine,qld-outback,new,gigawatt,gas power,gas combustion turbine,thermal,0.34593757,electricity,plant
+net zero 2050,2050,gas combustion turbine,qld-outback,new,gigawatt,gas power,gas combustion turbine,thermal,0.10786204,electricity,plant
+net zero 2050,2040,gas combustion turbine,qld-south,new,gigawatt,gas power,gas combustion turbine,thermal,1.15397804,electricity,plant
+net zero 2050,2045,gas combustion turbine,qld-south,new,gigawatt,gas power,gas combustion turbine,thermal,1.46846639,electricity,plant
+net zero 2050,2050,gas combustion turbine,qld-south,new,gigawatt,gas power,gas combustion turbine,thermal,1.90669516,electricity,plant
+net zero 2050,2050,haber-bosch retrofit,qld-gg,retrofit,gigawatt,haber-bosch,haber-bosch,conversion,0.05292606,fuels,plant
+net zero 2050,2040,haber-bosch,qld-north,new,gigawatt,haber-bosch,haber-bosch,conversion,0.01100765,fuels,plant
+net zero 2050,2050,haber-bosch,qld-north,new,gigawatt,haber-bosch,haber-bosch,conversion,0.02395759,fuels,plant
+net zero 2050,2040,haber-bosch,qld-outback,new,gigawatt,haber-bosch,haber-bosch,conversion,0.36160038,fuels,plant
+net zero 2050,2045,haber-bosch,qld-outback,new,gigawatt,haber-bosch,haber-bosch,conversion,0.01729771,fuels,plant
+net zero 2050,2050,haber-bosch,qld-outback,new,gigawatt,haber-bosch,haber-bosch,conversion,0.17050168,fuels,plant
+net zero 2050,2040,h2 storage underground pipes,qld-gg,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.02154407,fuels,plant
+net zero 2050,2045,h2 storage underground pipes,qld-gg,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.01402306,fuels,plant
+net zero 2050,2050,h2 storage underground pipes,qld-gg,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.0654084,fuels,plant
+net zero 2050,2040,h2 storage underground pipes,qld-north,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.10592011,fuels,plant
+net zero 2050,2045,h2 storage underground pipes,qld-north,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.09890031,fuels,plant
+net zero 2050,2050,h2 storage underground pipes,qld-north,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.16681714,fuels,plant
+net zero 2050,2060,h2 storage underground pipes,qld-north,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.01486095,fuels,plant
+net zero 2050,2040,h2 storage underground pipes,qld-outback,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.35676736,fuels,plant
+net zero 2050,2050,h2 storage underground pipes,qld-outback,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.19108212,fuels,plant
+net zero 2050,2040,h2 storage underground pipes,qld-south,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.60328139,fuels,plant
+net zero 2050,2045,h2 storage underground pipes,qld-south,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,0.42052762,fuels,plant
+net zero 2050,2050,h2 storage underground pipes,qld-south,new,gigawatt,hydrogen storage,hydrogen storage,blend storage,2.66109845,fuels,plant
+net zero 2050,2035,onshore wind|4,qld-gg,new,gigawatt,onshore wind,onshore wind,fixed,0.05184002,electricity,plant
+net zero 2050,2030,onshore wind|1,qld-outback,new,gigawatt,onshore wind,onshore wind,fixed,1.33779753,electricity,plant
+net zero 2050,2035,onshore wind|1,qld-outback,new,gigawatt,onshore wind,onshore wind,fixed,1.33763993,electricity,plant
+net zero 2050,2040,onshore wind|1,qld-outback,new,gigawatt,onshore wind,onshore wind,fixed,0.33474399,electricity,plant
+net zero 2050,2045,onshore wind|1,qld-outback,new,gigawatt,onshore wind,onshore wind,fixed,0.33369945,electricity,plant
+net zero 2050,2050,onshore wind|1,qld-outback,new,gigawatt,onshore wind,onshore wind,fixed,0.33510303,electricity,plant
+net zero 2050,2030,onshore wind|3,qld-south,new,gigawatt,onshore wind,onshore wind,fixed,0.53422252,electricity,plant
+net zero 2050,2040,ch4 storage,qld-north,new,gigawatt,pipeline gas storage,pipeline gas storage,blend storage,0.27661025,fuels,plant
+net zero 2050,2045,ch4 storage,qld-north,new,gigawatt,pipeline gas storage,pipeline gas storage,blend storage,1.03587662,fuels,plant
+net zero 2050,2060,ch4 storage,qld-south,new,gigawatt,pipeline gas storage,pipeline gas storage,blend storage,0.01413056,fuels,plant
+net zero 2050,2055,large-scale solar pv|4,qld-central,new,gigawatt,solar,large-scale solar pv,fixed,0.51461991,electricity,plant
+net zero 2050,2060,large-scale solar pv|4,qld-central,new,gigawatt,solar,large-scale solar pv,fixed,0.51463629,electricity,plant
+net zero 2050,2030,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,1.12699017,electricity,plant
+net zero 2050,2035,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,2.41112643,electricity,plant
+net zero 2050,2040,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,2.41112746,electricity,plant
+net zero 2050,2045,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,1.31089481,electricity,plant
+net zero 2050,2050,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,1.31089162,electricity,plant
+net zero 2050,2055,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,1.31087409,electricity,plant
+net zero 2050,2060,large-scale solar pv|4,qld-gg,new,gigawatt,solar,large-scale solar pv,fixed,3.07361841,electricity,plant
+net zero 2050,2035,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,0.17598317,electricity,plant
+net zero 2050,2040,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,2.81607814,electricity,plant
+net zero 2050,2045,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,2.816081,electricity,plant
+net zero 2050,2050,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,3.37918047,electricity,plant
+net zero 2050,2055,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,0.72519699,electricity,plant
+net zero 2050,2060,large-scale solar pv|4,qld-north,new,gigawatt,solar,large-scale solar pv,fixed,0.7251861,electricity,plant
+net zero 2050,2035,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,0.52612243,electricity,plant
+net zero 2050,2040,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,2.08351378,electricity,plant
+net zero 2050,2045,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,2.08496836,electricity,plant
+net zero 2050,2050,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,2.31313207,electricity,plant
+net zero 2050,2055,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,0.87175025,electricity,plant
+net zero 2050,2060,large-scale solar pv|1,qld-outback,new,gigawatt,solar,large-scale solar pv,fixed,0.87032457,electricity,plant
+net zero 2050,2030,large-scale solar pv|2,qld-south,new,gigawatt,solar,large-scale solar pv,fixed,0.69198972,electricity,plant
+net zero 2050,2030,large-scale solar pv|4,qld-south,new,gigawatt,solar,large-scale solar pv,fixed,1.43133905,electricity,plant
+net zero 2050,2035,large-scale solar pv|4,qld-south,new,gigawatt,solar,large-scale solar pv,fixed,5.63048372,electricity,plant
+net zero 2050,2040,large-scale solar pv|4,qld-south,new,gigawatt,solar,large-scale solar pv,fixed,5.63049036,electricity,plant
+net zero 2050,2045,large-scale solar pv|4,qld-south,new,gigawatt,solar,large-scale solar pv,fixed,3.44656507,electricity,plant
+net zero 2050,2030,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.40233839,electricity,plant
+net zero 2050,2035,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.22866237,electricity,plant
+net zero 2050,2040,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.3819993,electricity,plant
+net zero 2050,2045,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.44499981,electricity,plant
+net zero 2050,2050,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.44500024,electricity,plant
+net zero 2050,2055,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,1.20300078,electricity,plant
+net zero 2050,2060,rooftop solar,qld-north,new,gigawatt,solar,rooftop solar,fixed,0.40233858,electricity,plant
+net zero 2050,2030,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.01400391,electricity,plant
+net zero 2050,2035,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.01299667,electricity,plant
+net zero 2050,2040,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.01699969,electricity,plant
+net zero 2050,2045,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.0189999,electricity,plant
+net zero 2050,2050,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.01900131,electricity,plant
+net zero 2050,2055,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.05000017,electricity,plant
+net zero 2050,2060,rooftop solar,qld-outback,new,gigawatt,solar,rooftop solar,fixed,0.01400442,electricity,plant
+net zero 2050,2030,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,2.12718746,electricity,plant
+net zero 2050,2035,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,1.16684646,electricity,plant
+net zero 2050,2040,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,1.9909665,electricity,plant
+net zero 2050,2045,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,2.3219987,electricity,plant
+net zero 2050,2050,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,2.32800065,electricity,plant
+net zero 2050,2055,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,6.27999899,electricity,plant
+net zero 2050,2060,rooftop solar,qld-south,new,gigawatt,solar,rooftop solar,fixed,2.12718789,electricity,plant
+net zero 2050,2035,nsw-north||qld-south||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.11489737,CO2 transmission,transmission
+net zero 2050,2040,nsw-north||qld-south||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.0240035,CO2 transmission,transmission
+net zero 2050,2045,nsw-north||qld-south||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.37681763,CO2 transmission,transmission
+net zero 2050,2050,nsw-north||qld-south||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.10874565,CO2 transmission,transmission
+net zero 2050,2045,qld-central||qld-gg||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.00659143,CO2 transmission,transmission
+net zero 2050,2035,qld-central||qld-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.00540148,CO2 transmission,transmission
+net zero 2050,2045,qld-central||qld-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.22030226,CO2 transmission,transmission
+net zero 2050,2050,qld-central||qld-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.0888154,CO2 transmission,transmission
+net zero 2050,2050,qld-outback||qld-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.35422231,CO2 transmission,transmission
+net zero 2050,2035,qld-outback||sa-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.00909709,CO2 transmission,transmission
+net zero 2050,2050,qld-outback||sa-north||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.34565732,CO2 transmission,transmission
+net zero 2050,2035,qld-south||qld-central||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.00550251,CO2 transmission,transmission
+net zero 2050,2045,qld-south||qld-central||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.27638742,CO2 transmission,transmission
+net zero 2050,2050,qld-south||qld-central||co2||1,,new,kilotonne/hour,,co2 capture blend,transmission,0.13839786,CO2 transmission,transmission
+net zero 2050,2035,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.01885566,electricity transmission,transmission
+net zero 2050,2040,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.26889022,electricity transmission,transmission
+net zero 2050,2045,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.08324156,electricity transmission,transmission
+net zero 2050,2050,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.06806796,electricity transmission,transmission
+net zero 2050,2055,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.2619431,electricity transmission,transmission
+net zero 2050,2060,nsw-north||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.53061169,electricity transmission,transmission
+net zero 2050,2030,nt||qld-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.01122396,electricity transmission,transmission
+net zero 2050,2030,nt||qld-outback||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.10153462,electricity transmission,transmission
+net zero 2050,2030,qld-central||qld-gg||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.01984292,electricity transmission,transmission
+net zero 2050,2040,qld-central||qld-gg||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.01673258,electricity transmission,transmission
+net zero 2050,2045,qld-central||qld-gg||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.01544461,electricity transmission,transmission
+net zero 2050,2060,qld-central||qld-gg||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.30317384,electricity transmission,transmission
+net zero 2050,2030,qld-outback||nsw-outback||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.0061713,electricity transmission,transmission
+net zero 2050,2030,qld-outback||qld-central||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.29266455,electricity transmission,transmission
+net zero 2050,2030,qld-outback||qld-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.34050303,electricity transmission,transmission
+net zero 2050,2030,qld-outback||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.02702648,electricity transmission,transmission
+net zero 2050,2035,qld-outback||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.55371536,electricity transmission,transmission
+net zero 2050,2045,qld-outback||qld-south||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.18112336,electricity transmission,transmission
+newjt zero 2050,2030,qld-outback||sa-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.27076176,electricity transmission,transmission
+net zero 2050,2035,qld-outback||sa-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.39098449,electricity transmission,transmission
+net zero 2050,2045,qld-outback||sa-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.41106086,electricity transmission,transmission
+net zero 2050,2050,qld-outback||sa-north||electricity||1,,new,gigawatt_hour/hour,,electricity,transmission,0.54268355,electricity transmission,transmission
+net zero 2050,2030,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.03789445,hydrogen transmission,transmission
+net zero 2050,2035,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.0600795,hydrogen transmission,transmission
+net zero 2050,2040,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01899217,hydrogen transmission,transmission
+net zero 2050,2045,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.10604833,hydrogen transmission,transmission
+net zero 2050,2050,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.55025835,hydrogen transmission,transmission
+net zero 2050,2055,nsw-north||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.21370029,hydrogen transmission,transmission
+net zero 2050,2035,nt||qld-outback||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.03937984,hydrogen transmission,transmission
+net zero 2050,2030,qld-central||qld-gg||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.00384608,hydrogen transmission,transmission
+net zero 2050,2035,qld-central||qld-gg||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.00911588,hydrogen transmission,transmission
+net zero 2050,2040,qld-central||qld-gg||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01000949,hydrogen transmission,transmission
+net zero 2050,2045,qld-central||qld-gg||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01029447,hydrogen transmission,transmission
+net zero 2050,2050,qld-central||qld-gg||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.06881434,hydrogen transmission,transmission
+net zero 2050,2030,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.00526081,hydrogen transmission,transmission
+net zero 2050,2035,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.03090082,hydrogen transmission,transmission
+net zero 2050,2040,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01100277,hydrogen transmission,transmission
+net zero 2050,2045,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.05231097,hydrogen transmission,transmission
+net zero 2050,2050,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.14037882,hydrogen transmission,transmission
+net zero 2050,2060,qld-central||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.05607387,hydrogen transmission,transmission
+net zero 2050,2040,qld-outback||qld-central||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.00424468,hydrogen transmission,transmission
+net zero 2050,2040,qld-outback||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.02303481,hydrogen transmission,transmission
+net zero 2050,2045,qld-outback||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.02599603,hydrogen transmission,transmission
+net zero 2050,2050,qld-outback||qld-north||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.06195876,hydrogen transmission,transmission
+net zero 2050,2040,qld-outback||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01893648,hydrogen transmission,transmission
+net zero 2050,2045,qld-outback||qld-south||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.01378487,hydrogen transmission,transmission
+net zero 2050,2030,qld-south||qld-central||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.00718687,hydrogen transmission,transmission
+net zero 2050,2035,qld-south||qld-central||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.05421995,hydrogen transmission,transmission
+net zero 2050,2050,qld-south||qld-central||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.22178148,hydrogen transmission,transmission
+net zero 2050,2060,qld-south||qld-central||h2||1,,new,gigawatt_hour/hour,,hydrogen blend b,transmission,0.04901522,hydrogen transmission,transmission

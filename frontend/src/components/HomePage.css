@@ -1,0 +1,87 @@
+.home-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8px 0 48px;
+}
+
+.home-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+
+.home-thesis {
+  margin-bottom: 36px;
+}
+
+.home-text-block {
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  padding: 18px 20px;
+}
+
+.home-text-block--card {
+  flex: 1;
+  margin-bottom: 18px;
+  background: var(--color-surface-muted);
+}
+
+.home-text {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.65;
+  font-style: normal;
+  margin: 0;
+}
+
+.home-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+@media (max-width: 800px) {
+  .home-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 22px 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.home-cta {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 12px 20px;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  background: var(--color-surface);
+  color: var(--color-accent);
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.home-cta:hover {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
+
+.home-cta:active {
+  transform: translateY(1px);
+}
