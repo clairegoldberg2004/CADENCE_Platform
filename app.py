@@ -37,6 +37,17 @@ import random
 app = Flask(__name__)
 CORS(app)  # Enable CORS for React frontend
 
+
+@app.route("/")
+def root():
+    """Root URL: this service is JSON APIs only (no HTML). Browsers hitting / get 200 + pointers."""
+    return jsonify(
+        service="CADENCE Platform API",
+        status="ok",
+        health_check="GET /api/defaults",
+    )
+
+
 # -----------------------------------------------------------------------------
 # Scenario results gallery (precomputed artifacts) created by scenario analysis
 # -----------------------------------------------------------------------------
