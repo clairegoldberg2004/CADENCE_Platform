@@ -721,6 +721,14 @@
   line-height: 1.4;
 }
 
+.sg-insight-body p {
+  margin: 0 0 0.65em;
+}
+
+.sg-insight-body p:last-child {
+  margin-bottom: 0;
+}
+
 .sg-walk-nav {
   display: flex;
   justify-content: space-between;

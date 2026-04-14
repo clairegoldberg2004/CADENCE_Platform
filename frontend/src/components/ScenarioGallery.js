@@ -11,6 +11,13 @@ const SCENARIOS_MAIN = [
   'S3_CHINA_COORDINATED',
 ];
 
+function paragraphsFromText(text) {
+  return String(text || '')
+    .split(/\n\s*\n/g)
+    .map(s => s.trim())
+    .filter(Boolean);
+}
+
 const SCENARIO_LABEL = {
   [KEY_BASELINE]: 'Base-level Sequencing',
   [KEY_PERFECT]: 'Perfect Coordination',
@@ -30,7 +37,19 @@ const WALKTHROUGH_COPY = {
     assumptions: 'Placeholder: Key assumptions for Scenario 1 (lognormal long tails, longer definition, higher attrition, transmission bottlenecks).',
     results: 'Placeholder: What happened under Scenario 1 compared to Base-level Sequencing and Perfect Coordination.',
     mechanisms: 'Placeholder: What mechanisms bound solar (TX, gas, intra-project, battery joint) and how that drove outcomes.',
-    insights: 'Placeholder: Main insights and implications from Scenario 1.',
+    insightsMajor:
+      'Falls 19,100 MW short of NZAu 2050 targets (~22%), driven primarily by an uncertain investment climate that increases capital discipline frictions.\n\n' +
+      'Capital discipline was the largest positive capacity contributor across all scenarios (+~1,350 MW) but also the largest delay driver (+0.495 years of mean delay) — revealing a fundamental tradeoff between pipeline resilience and speed.',
+    insightsInterpretation:
+      'By extending definition stages, S1 filters out less feasible projects, which lowers downstream abandonment (28%) relative to S2. The slower, more selective pre-commitment process trades timeline for pipeline durability.\n\n' +
+      'Abandonment and initial queue pull in opposite directions: abandonment costs −13,756 MW while the initial queue adds +15,211 MW, nearly canceling each other out.',
+    insightsImplications:
+      'Capital discipline reveals a fundamental tradeoff between pipeline resilience and speed. The slower, more selective pre-commitment process trades timeline for pipeline durability.',
+    insights:
+      'Falls 19,100 MW short of NZAu 2050 targets (~22%), driven primarily by an uncertain investment climate that increases capital discipline frictions.\n\n' +
+      'Capital discipline was the largest positive capacity contributor across all scenarios (+~1,350 MW) but also the largest delay driver (+0.495 years of mean delay) — revealing a fundamental tradeoff between pipeline resilience and speed.\n\n' +
+      'By extending definition stages, S1 filters out less feasible projects, which lowers downstream abandonment (28%) relative to S2. The slower, more selective pre-commitment process trades timeline for pipeline durability.\n\n' +
+      'Abandonment and initial queue pull in opposite directions: abandonment costs −13,756 MW while the initial queue adds +15,211 MW, nearly canceling each other out.',
   },
   S2_IRA_INCENTIVE_RUSH: {
     context:
@@ -43,7 +62,20 @@ const WALKTHROUGH_COPY = {
     assumptions: 'Placeholder: Key assumptions for Scenario 2 (faster definition, normal durations, different TX split, higher attrition).',
     results: 'Placeholder: What happened under Scenario 2 compared to Base-level Sequencing and Perfect Coordination.',
     mechanisms: 'Placeholder: Binding constraints and bottlenecks under Scenario 2.',
-    insights: 'Placeholder: Main insights and implications from Scenario 2.',
+    insightsMajor:
+      'The worst-performing real-world scenario: falls 26,200 MW short of NZAu targets (~30%).\n\n' +
+      'Reveals the Rush Paradox: shorter definition stages added +6,524 MW of capacity, but project abandonment destroyed −24,822 MW — a 3.8-to-1 cancellation ratio. Going faster during an incentive rush period produces a worse deployment outcome.',
+    insightsInterpretation:
+      'Speed has a genuine benefit in isolation: compressed stages contributed +4,196 MW and reduced mean delay by −0.183 years. The paradox is not that speed is useless — it\'s that attrition overwhelms it.\n\n' +
+      'Sensitivity analysis confirmed the paradox is a threshold phenomenon, not a parameter artifact: the Rush Paradox holds reliably when max attrition rate exceeds 0.68, regardless of base rate. S2\'s empirically backed parameters sit at or above this threshold.',
+    insightsImplications:
+      'The paired test (same attrition applied to both S1 and S2) showed S2 outperforms S1 by +4.0 to +7.3 GW — confirming the rush mechanism is genuinely capacity-positive when attrition is controlled.',
+    insights:
+      'The worst-performing real-world scenario: falls 26,200 MW short of NZAu targets (~30%).\n\n' +
+      'Reveals the Rush Paradox: shorter definition stages added +6,524 MW of capacity, but project abandonment destroyed −24,822 MW — a 3.8-to-1 cancellation ratio. Going faster during an incentive rush period produces a worse deployment outcome.\n\n' +
+      'Speed has a genuine benefit in isolation: compressed stages contributed +4,196 MW and reduced mean delay by −0.183 years. The paradox is not that speed is useless — it\'s that attrition overwhelms it.\n\n' +
+      'Sensitivity analysis confirmed the paradox is a threshold phenomenon, not a parameter artifact: the Rush Paradox holds reliably when max attrition rate exceeds 0.68, regardless of base rate. S2\'s empirically backed parameters sit at or above this threshold.\n\n' +
+      'The paired test (same attrition applied to both S1 and S2) showed S2 outperforms S1 by +4.0 to +7.3 GW — confirming the rush mechanism is genuinely capacity-positive when attrition is controlled.',
   },
   S3_CHINA_COORDINATED: {
     context:
@@ -57,7 +89,20 @@ const WALKTHROUGH_COPY = {
     assumptions: 'Placeholder: Key assumptions for Scenario 3 (deterministic durations, faster definition, data-driven TX prebuild, very low attrition).',
     results: 'Placeholder: What happened under Scenario 3 compared to Base-level Sequencing and Perfect Coordination.',
     mechanisms: 'Placeholder: How transmission prebuild changed which constraints were binding and when.',
-    insights: 'Placeholder: Main insights and implications from Scenario 3.',
+    insightsMajor:
+      'The strongest real-world scenario: falls only 9,400 MW short (~11%), and is the only scenario that outperforms Base-Level Sequencing.\n\n' +
+      'All parameters contribute positively to capacity — the only scenario where this is true — producing a net +7,414 MW gain over Base-Level Sequencing.',
+    insightsInterpretation:
+      'Capital discipline behaves differently here than in S1: instead of compounding delays, it accelerates deployment (+3,030 MW, −0.295 years). The key mechanism is that central planning removes the real-world frictions that capital discipline normally exposes projects to — so the extended definition window produces only benefits.\n\n' +
+      'Front-loaded transmission investment is the primary driver of S3\'s early advantage, concentrated in 2030–2045. Pre-built infrastructure allows solar projects to proceed without queuing for grid access.',
+    insightsImplications:
+      'S3 still falls short of Perfect Coordination because of the dual chokepoint: transmission constrains when projects can start, but battery availability constrains when they finish. Fixing one without the other yields limited gains. S3 solves the first bottleneck but not the second.',
+    insights:
+      'The strongest real-world scenario: falls only 9,400 MW short (~11%), and is the only scenario that outperforms Base-Level Sequencing.\n\n' +
+      'All parameters contribute positively to capacity — the only scenario where this is true — producing a net +7,414 MW gain over Base-Level Sequencing.\n\n' +
+      'Capital discipline behaves differently here than in S1: instead of compounding delays, it accelerates deployment (+3,030 MW, −0.295 years). The key mechanism is that central planning removes the real-world frictions that capital discipline normally exposes projects to — so the extended definition window produces only benefits.\n\n' +
+      'Front-loaded transmission investment is the primary driver of S3\'s early advantage, concentrated in 2030–2045. Pre-built infrastructure allows solar projects to proceed without queuing for grid access.\n\n' +
+      'S3 still falls short of Perfect Coordination because of the dual chokepoint: transmission constrains when projects can start, but battery availability constrains when they finish. Fixing one without the other yields limited gains. S3 solves the first bottleneck but not the second.',
   },
 };
 
@@ -413,10 +458,7 @@ export default function ScenarioGallery() {
   const walkCopy = WALKTHROUGH_COPY[walkKey] || {};
   const assumptionRows = ASSUMPTION_TABLES[walkKey] || [];
   const walkText = String(walkCopy[walkStep] || '');
-  const walkParagraphs = walkText
-    .split(/\n\s*\n/g)
-    .map(s => s.trim())
-    .filter(Boolean);
+  const walkParagraphs = paragraphsFromText(walkText);
 
   const findImg = (filename) => mainImgs.includes(filename) ? filename : null;
   const imgCumulativeMain = findImg('cumulative_deployment_curves_main_scenarios.png') || findImg('cumulative_deployment_curves.png');
@@ -1015,15 +1057,27 @@ export default function ScenarioGallery() {
                 <div className="sg-insights">
                   <div className="sg-insight-card">
                     <div className="sg-insight-title">Major findings</div>
-                    <div className="sg-insight-body">Placeholder: bullet list of major findings.</div>
+                    <div className="sg-insight-body">
+                      {paragraphsFromText(walkCopy.insightsMajor || '').map((p, idx) => (
+                        <p key={idx}>{p}</p>
+                      ))}
+                    </div>
                   </div>
                   <div className="sg-insight-card">
                     <div className="sg-insight-title">Interpretation</div>
-                    <div className="sg-insight-body">Placeholder: narrative interpretation of why results look this way.</div>
+                    <div className="sg-insight-body">
+                      {paragraphsFromText(walkCopy.insightsInterpretation || '').map((p, idx) => (
+                        <p key={idx}>{p}</p>
+                      ))}
+                    </div>
                   </div>
                   <div className="sg-insight-card">
                     <div className="sg-insight-title">Implications</div>
-                    <div className="sg-insight-body">Placeholder: policy / system design implications.</div>
+                    <div className="sg-insight-body">
+                      {paragraphsFromText(walkCopy.insightsImplications || '').map((p, idx) => (
+                        <p key={idx}>{p}</p>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </>
