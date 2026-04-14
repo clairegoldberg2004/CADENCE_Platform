@@ -1,0 +1,107 @@
+param,Base-level Sequencing,PERFECT_COORDINATION,S1_REAL_WORLD_2026_FRAGMENTED,S2_IRA_INCENTIVE_RUSH,S3_CHINA_COORDINATED
+dag_mode,interdependent,sequencing,interdependent,interdependent,interdependent
+distributions_config.Battery.Approvals_months.distribution,,,lognormal,normal,
+distributions_config.Battery.Approvals_months.max,,,10,10,
+distributions_config.Battery.Approvals_months.mean,,,6,6,
+distributions_config.Battery.Approvals_months.min,,,2,2,
+distributions_config.Battery.Approvals_months.std,,,2,2,
+distributions_config.Battery.Construction_months.distribution,,,normal,normal,
+distributions_config.Battery.Construction_months.max,,,20,20,
+distributions_config.Battery.Construction_months.mean,,,12,12,
+distributions_config.Battery.Construction_months.min,,,4,4,
+distributions_config.Battery.Construction_months.std,,,4,4,
+distributions_config.Battery.Definition_months.distribution,,,lognormal,normal,
+distributions_config.Battery.Definition_months.max,,,10,10,
+distributions_config.Battery.Definition_months.mean,,,6,6,
+distributions_config.Battery.Definition_months.min,,,2,2,
+distributions_config.Battery.Definition_months.std,,,2,2,
+distributions_config.Battery.enabled,,,True,True,
+distributions_config.Gas Turbine.Approvals_months.distribution,,,lognormal,normal,
+distributions_config.Gas Turbine.Approvals_months.max,,,20,20,
+distributions_config.Gas Turbine.Approvals_months.mean,,,12,12,
+distributions_config.Gas Turbine.Approvals_months.min,,,4,4,
+distributions_config.Gas Turbine.Approvals_months.std,,,4,4,
+distributions_config.Gas Turbine.Construction_months.distribution,,,normal,normal,
+distributions_config.Gas Turbine.Construction_months.max,,,30,30,
+distributions_config.Gas Turbine.Construction_months.mean,,,18,18,
+distributions_config.Gas Turbine.Construction_months.min,,,6,6,
+distributions_config.Gas Turbine.Construction_months.std,,,6,6,
+distributions_config.Gas Turbine.Definition_months.distribution,,,lognormal,normal,
+distributions_config.Gas Turbine.Definition_months.max,,,20,20,
+distributions_config.Gas Turbine.Definition_months.mean,,,12,12,
+distributions_config.Gas Turbine.Definition_months.min,,,4,4,
+distributions_config.Gas Turbine.Definition_months.std,,,4,4,
+distributions_config.Gas Turbine.enabled,,,True,True,
+distributions_config.Solar.Approvals_months.distribution,,,lognormal,normal,
+distributions_config.Solar.Approvals_months.max,,,20,20,
+distributions_config.Solar.Approvals_months.mean,,,12,12,
+distributions_config.Solar.Approvals_months.min,,,4,4,
+distributions_config.Solar.Approvals_months.std,,,4,4,
+distributions_config.Solar.Construction_months.distribution,,,normal,normal,
+distributions_config.Solar.Construction_months.max,,,30,30,
+distributions_config.Solar.Construction_months.mean,,,18,18,
+distributions_config.Solar.Construction_months.min,,,6,6,
+distributions_config.Solar.Construction_months.std,,,6,6,
+distributions_config.Solar.Definition_months.distribution,,,lognormal,normal,
+distributions_config.Solar.Definition_months.max,,,20,20,
+distributions_config.Solar.Definition_months.mean,,,12,12,
+distributions_config.Solar.Definition_months.min,,,4,4,
+distributions_config.Solar.Definition_months.std,,,4,4,
+distributions_config.Solar.enabled,,,True,True,
+distributions_config.Transmission.Approvals_months.distribution,,,lognormal,normal,
+distributions_config.Transmission.Approvals_months.max,,,60,60,
+distributions_config.Transmission.Approvals_months.mean,,,36,36,
+distributions_config.Transmission.Approvals_months.min,,,15,15,
+distributions_config.Transmission.Approvals_months.std,,,10,10,
+distributions_config.Transmission.Construction_months.distribution,,,normal,normal,
+distributions_config.Transmission.Construction_months.max,,,200,200,
+distributions_config.Transmission.Construction_months.mean,,,120,120,
+distributions_config.Transmission.Construction_months.min,,,50,50,
+distributions_config.Transmission.Construction_months.std,,,30,30,
+distributions_config.Transmission.Definition_months.distribution,,,lognormal,normal,
+distributions_config.Transmission.Definition_months.max,,,40,40,
+distributions_config.Transmission.Definition_months.mean,,,24,24,
+distributions_config.Transmission.Definition_months.min,,,10,10,
+distributions_config.Transmission.Definition_months.std,,,8,8,
+distributions_config.Transmission.enabled,,,True,True,
+durations_config.Battery.Approvals_months,6,6,6,6,6
+durations_config.Battery.Construction_months,12,12,12,12,12
+durations_config.Battery.Definition_months,6,6,11,3,3
+durations_config.Gas Turbine.Approvals_months,12,12,12,12,12
+durations_config.Gas Turbine.Construction_months,18,18,18,18,18
+durations_config.Gas Turbine.Definition_months,12,12,23,6,7
+durations_config.Solar.Approvals_months,12,12,12,12,12
+durations_config.Solar.Construction_months,18,18,18,18,18
+durations_config.Solar.Definition_months,12,12,23,6,7
+durations_config.Transmission.Approvals_months,36,36,36,36,36
+durations_config.Transmission.Construction_months,120,120,120,120,120
+durations_config.Transmission.Definition_months,24,24,46,13,14
+initial_queue_state.Battery.Approvals_MW,0.0,0.0,1200.0,1200.0,250.0
+initial_queue_state.Battery.Construction_MW,0.0,0.0,5300.0,5300.0,200.0
+initial_queue_state.Battery.Definition_MW,0.0,0.0,1200.0,1200.0,300.0
+initial_queue_state.Gas Turbine.Approvals_MW,0.0,0.0,367.0,367.0,40.0
+initial_queue_state.Gas Turbine.Construction_MW,0.0,0.0,164.0,164.0,30.0
+initial_queue_state.Gas Turbine.Definition_MW,0.0,0.0,370.0,370.0,50.0
+initial_queue_state.Solar.Approvals_MW,0.0,0.0,3100.0,3100.0,150.0
+initial_queue_state.Solar.Construction_MW,0.0,0.0,1400.0,1400.0,100.0
+initial_queue_state.Solar.Definition_MW,0.0,0.0,3100.0,3100.0,200.0
+initial_queue_state.Transmission.Approvals_MW,0.0,0.0,4500.0,4500.0,800.0
+initial_queue_state.Transmission.Construction_MW,0.0,0.0,3500.0,3500.0,600.0
+initial_queue_state.Transmission.Definition_MW,0.0,0.0,1500.0,1500.0,1000.0
+params.attrition.base_rate,0.05,0.05,0.05,0.09,0.025
+params.attrition.delay_threshold_years,1.0,1.0,1.0,1.0,2.0
+params.attrition.enabled,False,False,True,True,True
+params.attrition.max_rate,0.5,0.5,0.35,0.68,0.2
+params.battery.solar_to_battery_ratio,"[1.0, 1.0]","[1.0, 1.0]","[1.0, 1.0]","[1.0, 1.0]","[1.0, 1.0]"
+params.gas.solar_to_gas_ratio,"[5.0, 1.0]","[5.0, 1.0]","[9.0, 1.0]","[9.0, 1.0]","[9.0, 1.0]"
+params.matching.allow_unmatched_solar,,True,False,False,False
+params.transmission.lead_time_months,120,120,120,120,120
+params.transmission.rep_project_size_MW,500.0,500.0,500.0,500.0,500.0
+params.transmission.solar_fraction_proceed_at_FID,0.2,0.2,0.1,0.8,0.8
+params.transmission.solar_fraction_proceed_at_completion,0.8,0.8,0.9,0.2,0.2
+params.transmission.solar_to_transmission_ratio,"[5.0, 1.0]","[5.0, 1.0]","[10.0, 1.0]","[10.0, 1.0]","[10.0, 1.0]"
+rep_sizes.Battery,100.0,100.0,100.0,100.0,100.0
+rep_sizes.Gas Turbine,100.0,100.0,100.0,100.0,100.0
+rep_sizes.Solar,200.0,200.0,200.0,200.0,200.0
+rep_sizes.Transmission,500.0,500.0,500.0,500.0,500.0
+subtract_initial_queue,True,True,True,True,False
